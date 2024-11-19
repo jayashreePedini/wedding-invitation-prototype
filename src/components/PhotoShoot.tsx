@@ -14,16 +14,24 @@ import {
 
 const PhotoShoot = () => {
   return (
-    <section className="w-full h-screen flex px-20">
-      <div className="left w-[50%] flex flex-col items-center justify-center gap-5">
-        <img src={flowerBasket} alt="Flower Basket" width={300} />
-        <h1 className="main-font uppercase text-5xl text-dark">
+    <section className="w-full min-h-screen flex flex-col sm:flex-row px-4 md:px-12 lg:px-20 py-10">
+      <div className="left w-full sm:w-[50%] flex flex-col items-center justify-center gap-4 sm:gap-5 mb-8 sm:mb-0">
+        <img
+          src={flowerBasket}
+          alt="Flower Basket"
+          className="w-[200px] sm:w-[250px] lg:w-[300px]"
+        />
+        <h1 className="main-font uppercase text-3xl sm:text-4xl lg:text-5xl text-dark text-center">
           Pre-wedding shoot
         </h1>
-        <img src={border2} alt="Border" />
+        <img
+          src={border2}
+          alt="Border"
+          className="w-[200px] sm:w-[250px] lg:w-auto"
+        />
       </div>
-      <div className="right w-[50%] flex items-center justify-center px-24 py-10">
-        <Carousel className="w-[600px] h-[600px] overflow-hidden rounded-xl relative">
+      <div className="right w-full sm:w-[50%] flex items-center justify-center px-4 sm:px-12 lg:px-24">
+        <Carousel className="w-full max-w-[350px] sm:max-w-[450px] lg:max-w-[600px] aspect-square overflow-hidden rounded-xl relative">
           <CarouselContent className="h-full">
             <CarouselItem className="h-full aspect-square">
               <img src={img1} alt="" className="w-full h-full object-cover" />
@@ -38,8 +46,8 @@ const PhotoShoot = () => {
               <img src={img4} alt="" className="w-full h-full object-cover" />
             </CarouselItem>
           </CarouselContent>
-          <CarouselPrevious className="absolute left-4 bg-white/30 hover:bg-white/50 border-none" />
-          <CarouselNext className="absolute right-4 bg-white/30 hover:bg-white/50 border-none" />
+          <CarouselPrevious className="absolute left-4 bg-white/30 hover:bg-white/50 border-none hidden sm:flex" />
+          <CarouselNext className="absolute right-4 bg-white/30 hover:bg-white/50 border-none hidden sm:flex" />
         </Carousel>
       </div>
     </section>
