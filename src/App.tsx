@@ -13,10 +13,10 @@ const App = () => {
       <HeadSection />
       <InviteSection />
       <AboutCouples />
-      <FunctionsSection />
-      <VenueDetails />
       <PhotoShoot />
       <PhotoGallery />
+      <FunctionsSection />
+      <VenueDetails />
       <FooterSection />
     </main>
   );

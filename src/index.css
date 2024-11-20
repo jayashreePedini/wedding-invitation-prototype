@@ -4,10 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  /* border: 2px solid red; */
-}
-
 .main-font {
   font-family: "Playfair Display", serif;
   font-weight: bolder;
