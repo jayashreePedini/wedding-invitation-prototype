@@ -6,7 +6,7 @@ const AboutCouples = () => {
   return (
     <section className="w-full min-h-screen px-4 sm:px-10 lg:px-40 py-10 sm:py-20 flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-10">
       <div
-        className="left bg-black w-full sm:w-[40%] h-[300px] sm:h-[400px] lg:h-[500px] rounded-3xl overflow-hidden bg-cover bg-no-repeat bg-center"
+        className="left bg-black w-full sm:w-[40%] h-[300px] sm:h-[400px] lg:h-[700px] rounded-3xl overflow-hidden bg-cover bg-no-repeat bg-center"
         style={{ backgroundImage: `url(${couples})` }}
       ></div>
       <div className="right w-full sm:w-[60%] px-0 sm:px-10 lg:px-20">

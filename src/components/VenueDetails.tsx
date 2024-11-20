@@ -38,7 +38,7 @@ const VenueDetails = () => {
           </div>
         </div>
 
-        <div className="map w-full lg:w-1/2 h-[300px] sm:h-[400px] overflow-hidden rounded-2xl">
+        <div className="map w-full lg:w-1/2 h-[300px] sm:h-[500px] overflow-hidden rounded-2xl">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.0714666892856!2d75.78126827500547!3d26.927099476608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db3f3953edf0f%3A0xc1c18b2dd5a7c67a!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1709840000000!5m2!1sen!2sin"
             width="100%"

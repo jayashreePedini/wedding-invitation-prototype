@@ -4,6 +4,8 @@ import HeadSection from "./components/HeadSection";
 import InviteSection from "./components/InviteSection";
 import PhotoShoot from "./components/PhotoShoot";
 import VenueDetails from "./components/VenueDetails";
+import FunctionsSection from "./components/FunctionsSection";
+import PhotoGallery from "./components/PhotoGallery";
 
 const App = () => {
   return (
@@ -11,8 +13,10 @@ const App = () => {
       <HeadSection />
       <InviteSection />
       <AboutCouples />
-      <PhotoShoot />
+      <FunctionsSection />
       <VenueDetails />
+      <PhotoShoot />
+      <PhotoGallery />
       <FooterSection />
     </main>
   );
